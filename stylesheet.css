@@ -93,11 +93,15 @@ h1 {
 }
 
 @media (max-width: 750px) {
+  .top-banner h1 {
+    font-size: 1.9rem;
+  }
   .top-banner-bg {
     height: 180px;
     top: 128px;
   }
   .top-banner {
+    padding-left: 0;
     flex-direction: column;
     align-items: center;
   }
@@ -328,6 +332,7 @@ a {
 }
 @media (max-width: 750px) {
   .section-bottom {
+    margin: 0 10%;
     flex-direction: column;
     gap: 16px;
   }
