@@ -1,10 +1,12 @@
 // (Setup the copy to clipboard notification and button)
+/*
 document
   .getElementById("email-link")
   .addEventListener("click", function (event) {
     event.preventDefault();
     copyContent("agustinvleonel@gmail.com");
   });
+  */
 
 document
   .getElementById("disc-link")
